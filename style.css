@@ -65,6 +65,10 @@ body {
 }
 
 @media (max-width: 768px) {
+    body{
+        background: url('images/bg-pattern-top.svg') top -200px left -150px no-repeat, 
+        url('images/bg-pattern-bottom.svg') bottom -100px right -150px no-repeat;
+    }
     .profile-card {
         width: 300px;
     }
